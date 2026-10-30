@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vrcom"
+version = "0.0.1"
+description = "Placeholder: the vrcom name is held for a future project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "tsomerville" }]
+
+[project.urls]
+Homepage = "https://github.com/starshipagentic/vrcom"
+
+[tool.setuptools.packages.find]
+where = ["src"]
